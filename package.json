@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/savannahvel/readme_engine#readme",
   "dependencies": {
+    "fs": "^0.0.1-security",
     "inquirer": "^8.2.4"
   }
 }

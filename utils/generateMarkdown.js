@@ -82,6 +82,7 @@ function generateMarkdown(data) {
           newHtml = `\n- [${tocList[i]}](#${tocList[i].toLowerCase()})`
           tocHtml += newHtml
         }
+        tocHtml += `\n- [Questions](#questions)`
         html += tocHtml;
       }
       continue;
